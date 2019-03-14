@@ -23,9 +23,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/freelancer.css" rel="stylesheet">
-  
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style-start.css">
 </head>
 
 <body id="page-top">
@@ -33,15 +31,12 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">FUNPHABET</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">EXIT</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">เล่นเกม</a>
-          </li>
 		  <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger portfolio-item" href="#portfolio-modal-1">คำอธิบาย</a>
           </li>
@@ -62,37 +57,48 @@
 		<img class="img-fluid mb-5 d-block mx-auto img-logo" src="img/logo.png" alt="https://www.flaticon.com">
 	    <h1>FUNPHABET</h1>
 	    <hr class="star-dark">
-		<p>อักษรแสนสนุก</p>
+		<h4>LEVEL</h4>
+	    <hr class="star-dark">
+		<div align="middle">
+			<form action="input-name.php" method="post">
+				<div class="row">
+					<div class="col-md-4" align="middle">
+						<a href="#" class="btn-level1">
+							<i class="fas fa-dog"></i>
+						</a>
+						<h6>ง่าย</h6>
+					</div>
+					<div class="col-md-4" align="middle">
+						<a href="#" class="btn-level2">
+							<i class="fas fa-spider"></i>
+						</a>
+						<h6>ปานกลาง</h6>
+					</div>
+					<div class="col-md-4" align="middle">
+						<a href="#" class="btn-level3">
+							<i class="fas fa-dragon"></i>
+						</a>
+						<h6>ยาก</h6>
+					</div>
+				</div>
+				<hr class="star-dark">
+				<div class="row">
+					<div class="col-md-4" align="middle">
+					</div>
+					<div class="col-md-4" align="middle">
+						<a class="portfolio-item mx-auto btn1" href="#portfolio-modal-2">
+						ดูคะแนน
+						</a>
+					</div>
+					<div class="col-md-4" align="middle">
+					</div>
+				</div>
+			</form>
+		<div>
+		</div>
 		<hr class="star-dark">
     </div>
   </header>
-
-  <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <h2 class="text-center mb-0">เล่นเกม</h2>
-	  <hr class="star-dark mb-5">
-      <div class="col-md-12 col-lg-12" align="middle">
-		<a class="play-btn" href="input-name.php"></a>
-      </div>
-	  <hr class="star-dark mb-5">
-	  <br><br>
-	  <div class="row">
-        <div class="col-md-6 col-lg-6" align="middle">
-			<a class="portfolio-item mx-auto btn1" href="#portfolio-modal-1">
-			คำอธิบาย
-			</a>
-        </div>
-		<div class="col-md-6 col-lg-6" align="middle">
-			<a class="portfolio-item mx-auto btn1" href="#portfolio-modal-2">
-			ดูคะแนน
-			</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
 
   <div class="copyright py-4 text-center text-white">
     <div class="container">
@@ -200,7 +206,7 @@
   <script src="js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
+  <script src="js/freelancer.js"></script>
 </body>
 
 </html>

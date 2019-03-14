@@ -9,7 +9,7 @@
   <meta name="author" content="">
 
   <title>FUNPHABET</title>
-  <link rel="icon" type="image/gif/png" href="img/castle.png" alt="https://www.flaticon.com">
+  <link rel="icon" type="image/gif/png" href="img/logo.png" alt="https://www.flaticon.com">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,7 +24,6 @@
   <!-- Custom styles for this template -->
   <link href="css/freelancer.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  
 </head>
 
 <body id="page-top">
@@ -32,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">FUNPHABET</a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html">EXIT</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
@@ -55,11 +54,11 @@
   <!-- Header -->
   <header class="masthead text-center">
     <div class="container">
-		<img class="img-fluid mb-5 d-block mx-auto img-logo" src="img/castle.png" alt="https://www.flaticon.com">
+		<img class="img-fluid mb-5 d-block mx-auto img-logo" src="img/logo.png" alt="https://www.flaticon.com">
 	    <h1>FUNPHABET</h1>
 	    <hr class="star-dark">
 		<div align="middle">
-			<form action="input-name.php" method="post">
+			<form action="level.php" method="post">
 				<div class="row">
 					<div class="col-md-4"></div>
 					<div class="col-md-4" align="middle">
