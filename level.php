@@ -170,16 +170,16 @@
 			<hr class="star-dark mb-5">
             <img class="img-fluid mb-5 img-port" src="img/contract.png" alt="https://www.flaticon.com">
 			<div class="col-lg-12" align="middle">
-				<a href="#" class="btn-facebook">
+				<a href="https://www.facebook.com/bangker.phonlayut" class="btn-facebook">
 					<i class="fab fa-facebook-f"></i>
 				</a>
-				<a href="#" class="btn-google">
+				<a href="https://www.google.com/gmail/about/" class="btn-google">
 					<i class="fab fa-google"></i>
 				</a>
-				<a href="#" class="btn-instagram">
+				<a href="https://www.instagram.com/bank_ngid/?hl=en" class="btn-instagram">
 					<i class="fab fa-instagram"></i>
 				</a>
-				<a href="#" class="btn-line">
+				<a href="https://line.me/ti/p/TQXrh9747T" class="btn-line">
 					<i class="fab fa-line"></i>
 				</a>
 			</div>
