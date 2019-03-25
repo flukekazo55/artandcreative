@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">EXIT</a>
+      <a class="navbar-brand js-scroll-trigger" href="level.php">BACK</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
@@ -57,27 +57,63 @@
 		<img class="img-fluid mb-5 d-block mx-auto img-logo" src="img/logo.png" alt="https://www.flaticon.com">
 	    <h1>FUNPHABET</h1>
 	    <hr class="star-dark">
-		<h4>LEVEL</h4>
+		<h4>ง่าย</h4>
 	    <hr class="star-dark">
 		<div align="middle">
 			<div class="row">
 				<div class="col-md-4" align="middle">
-					<a href="easy.php" class="btn-level1">
-						<i class="fas fa-dog"></i>
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3-used">
+						<i class="fas fa-drumstick-bite"></i>
 					</a>
-					<h6>ง่าย</h6>
+					<h6>1</h6>
 				</div>
 				<div class="col-md-4" align="middle">
-					<a href="medium.php" class="btn-level2">
-						<i class="fas fa-spider"></i>
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
 					</a>
-					<h6>ปานกลาง</h6>
+					<h6>2</h6>
 				</div>
 				<div class="col-md-4" align="middle">
-					<a href="hard.php" class="btn-level3">
-						<i class="fas fa-dragon"></i>
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
 					</a>
-					<h6>ยาก</h6>
+					<h6>3</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>4</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>5</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>6</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>7</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>8</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level3">
+						<i class="fas fa-drumstick-bite"></i>
+					</a>
+					<h6>9</h6>
 				</div>
 			</div>
 			<hr class="star-dark">
@@ -189,9 +225,41 @@
       </div>
     </div>
   </div>
-  
-  
 
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">ข้อที่ ...</h2>
+			<hr class="star-dark mb-5">
+			<img class="img-fluid mb-5 img-stage" src="img/soldier.png" alt="https://www.flaticon.com">
+			<div class="col-lg-12" align="middle">
+				<a onclick="fail()" class="btn-stage3">
+					<i class="far fa-angry"></i>
+				</a>
+				<a onclick="fail()" class="btn-stage3">
+					<i class="far fa-dizzy"></i>
+				</a>
+				<a onclick="success()" class="btn-stage3">
+					<i class="far fa-grin-beam"></i>
+				</a>
+				<a onclick="fail()" class="btn-stage3">
+					<i class="far fa-grin-tongue-wink"></i>
+				</a>
+			</div>
+			<hr class="star-dark mb-5">
+            <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+			ปิด</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -206,6 +274,13 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.js"></script>
+  <script src="js/alert.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+  <script src="sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="sweetalert2.min.css">
 </body>
 
 </html>

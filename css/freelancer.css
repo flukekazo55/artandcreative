@@ -353,7 +353,7 @@ a:focus, a:hover, a:active {
 background-color: #3F1C19 !important;
 }
 .bg-primary {
-  background-color: #FF6B6B !important;
+  background-color: #4ECDC4 !important;
 }
 
 .bg-secondary {
@@ -728,8 +728,9 @@ background-color: #3F1C19 !important;
 	top: -10%;
 	left: -10%;
 }
-
 /* end btn-level1*/
+
+/* start btn-level2*/
 .btn-level2{
 	display: inline-block;
 	width: 100px;
@@ -767,6 +768,46 @@ background-color: #3F1C19 !important;
 	left: -10%;
 }
 
+ /* level 2 used */
+.btn-level2-used{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #C7F464;
+	overflow: hidden;
+	position: relative;	
+}
+.btn-level2-used i{
+	line-height: 100px;
+	font-size: 30px;
+	transition: 0.2s linear;
+}
+.btn-level2-used:hover i{
+	transform: scale(1.3);
+	color: #C7F464;
+}
+.btn-level2-used:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #fff;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.btn-level2-used:hover:before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+/* end btn-level2*/
+
+/* start btn-level3*/
 .btn-level3{
 	display: inline-block;
 	width: 100px;
@@ -803,10 +844,47 @@ background-color: #3F1C19 !important;
 	top: -10%;
 	left: -10%;
 }
-
+ /* level 2 used */
+.btn-level3-used{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #FF6B6B;
+	overflow: hidden;
+	position: relative;	
+}
+.btn-level3-used i{
+	line-height: 100px;
+	font-size: 30px;
+	transition: 0.2s linear;
+}
+.btn-level3-used:hover i{
+	transform: scale(1.3);
+	color: #FF6B6B;
+}
+.btn-level3-used:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #fff;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.btn-level3-used:hover:before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+/* end btn-level3*/
 /* end level */
 
-.btn-stage{
+.btn-stage1{
 	display: inline-block;
 	width: 60px;
 	height: 60px;
@@ -818,16 +896,16 @@ background-color: #3F1C19 !important;
 	overflow: hidden;
 	position: relative;	
 }
-.btn-stage i{
+.btn-stage1 i{
 	line-height: 60px;
 	font-size: 30px;
 	transition: 0.2s linear;
 }
-.btn-stage:hover i{
+.btn-stage1:hover i{
 	transform: scale(1.3);
 	color: #4ECDC4;
 }
-.btn-stage:before{
+.btn-stage1:before{
 	content: "";
 	position: absolute;
 	width: 120%;
@@ -837,11 +915,86 @@ background-color: #3F1C19 !important;
 	left: -110%;
 	top: 90%;
 }
-.btn-stage:hover:before{
+.btn-stage1:hover:before{
 	animation: aaa 0.7s 1;
 	top: -10%;
 	left: -10%;
 }
+
+.btn-stage2{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #C7F464;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #fff;
+	overflow: hidden;
+	position: relative;	
+}
+.btn-stage2 i{
+	line-height: 60px;
+	font-size: 30px;
+	transition: 0.2s linear;
+}
+.btn-stage2:hover i{
+	transform: scale(1.3);
+	color: #C7F464;
+}
+.btn-stage2:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #fff;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.btn-stage2:hover:before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+
+.btn-stage3{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #FF6B6B;
+	margin: 10px;
+	border-radius: 30%;
+	box-shadow: 0 5px 15px -5px #00000070;
+	color: #fff;
+	overflow: hidden;
+	position: relative;	
+}
+.btn-stage3 i{
+	line-height: 60px;
+	font-size: 30px;
+	transition: 0.2s linear;
+}
+.btn-stage3:hover i{
+	transform: scale(1.3);
+	color: #FF6B6B;
+}
+.btn-stage3:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	background: #fff;
+	transform: rotate(45deg);
+	left: -110%;
+	top: 90%;
+}
+.btn-stage3:hover:before{
+	animation: aaa 0.7s 1;
+	top: -10%;
+	left: -10%;
+}
+
 
 .btn-star{
 	display: inline-block;
@@ -878,4 +1031,196 @@ background-color: #3F1C19 !important;
 	animation: aaa 0.7s 1;
 	top: -10%;
 	left: -10%;
+}
+
+/* Score */
+.Score {
+  display:inline-block;
+  font:500 100px/2 "Raleway", sans-serif;
+  color:#fff;
+  position:relative;
+  width:270px;
+  height:200px;
+  white-space:nowrap;
+  
+  .fa-arrow-up {
+    font-size:50%;
+    color:#27AE60;
+    position:relative;
+    top:-5px;
+  }
+}
+
+.Score-added {
+  @include animation(scoreOverlayFromBottom 2s ease-in-out 1);
+  position:absolute;
+  white-space:nowrap;
+  text-align:center;
+  width:400px;
+  left:-80px;
+  line-height:200px;
+  opacity:0;
+  
+  i {
+    color:orange;
+    font-size:90%;
+  }
+}
+
+.Score-multiplier {
+  @include animation(scoreOverlayFromBottomMultiplier 1s ease-in-out 1);
+  @extend .Score-added;
+  @include animation-delay(1s);
+  width:400px;
+  left:-200px;
+  
+  i {
+    color:red;
+  }
+}
+
+
+@include keyframes(scoreOverlayFromBottom) {
+ 
+  0% {
+    font-size:50px;
+    line-height:200px;
+    top:200px;
+    opacity:0;
+  }
+  
+  15% {
+    opacity:1;
+    font-size:130px;
+    line-height:200px;
+    top:100px;
+    left:-80px;
+  }
+  
+  20% {
+    font-size:100px;    
+  }
+  
+  40% {
+    left:-80px;
+  }
+
+  60% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;    
+    left:10px;
+  }
+  
+  90% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;    
+    left:10px;
+  }
+  
+  100% {
+    opacity:0;
+    font-size:0px;
+    line-height:200px;
+    top:-50px;
+    left:-80px;
+  }
+}
+
+@include keyframes(scoreOverlayFromBottomMultiplier) {
+ 
+  0% {
+    font-size:50px;
+    line-height:200px;
+    top:200px;
+    opacity:0;
+  }
+  
+  30% {
+    opacity:1;
+    font-size:130px;
+    line-height:200px;
+    top:100px;
+  }
+  
+  40% {
+    font-size:100px;
+  }
+  
+  60% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;    
+    left:-200px;    
+  }
+
+  80% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;    
+    left:-200px; 
+  }
+  
+  100% {
+    opacity:0;
+    font-size:0px;
+    line-height:200px;
+    top:-50px;
+    left:-50px;
+  }
+}
+
+@include keyframes(scoreOverlay) {
+ 
+  0% {
+    font-size:50px;
+    line-height:200px;
+    top:0px;
+    opacity:0;
+  }
+  
+  20% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;
+  }
+
+  90% {
+    opacity:1;
+    font-size:100px;
+    line-height:200px;
+    top:100px;    
+  }
+  
+  100% {
+    opacity:0;
+    font-size:0px;
+    line-height:200px;
+    top:-400px;
+  }
+}
+
+.ResetScore {
+  @include position(absolute, 50% 20px auto auto auto);
+  display:block;
+  border-radius:10px;
+  cursor:pointer;
+  width:250px;
+  text-align:center;
+  margin-top:-20px;
+  font:700 14px/40px "Railway", sans-serif;
+  text-transform:uppercase;
+  color:#fff;
+  border:2px solid lighten(#2C3E50, 10%);
+  @include transition(background .2s);
+  
+  &:hover {
+    background:lighten(#2C3E50, 10%);
+  }
 }

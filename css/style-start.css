@@ -1,7 +1,7 @@
 .play-btn {
   width: 100px;
   height: 100px;
-  background: radial-gradient( white 50%, #4ECDC4 52%);
+  background: radial-gradient( white 50%, #C44D58 52%);
   border-radius: 50%;
   display: block;
   margin: 50px auto 0;
@@ -19,7 +19,7 @@
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #556270;
+  border-left: 15px solid #FF6B6B;
   z-index: 100;
   -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -41,13 +41,13 @@
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 2px solid #4ECDC4;
+  border: 2px solid #C44D58;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 .play-btn:hover::after {
-  border-left: 15px solid #556270;
+  border-left: 15px solid #FF6B6B;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -63,7 +63,7 @@
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #4ECDC4;
+  border-left: 15px solid #C44D58;
   z-index: 200;
   -webkit-animation: none;
   animation: none;

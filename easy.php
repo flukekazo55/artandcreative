@@ -31,7 +31,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">EXIT</a>
+      <a class="navbar-brand js-scroll-trigger" href="level.php">BACK</a>
       <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
@@ -60,79 +60,76 @@
 		<h4>ง่าย</h4>
 	    <hr class="star-dark">
 		<div align="middle">
-			<form action="input-name.php" method="post">
-				<div class="row">
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1-used">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>1</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>2</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>3</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>4</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>5</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>6</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>7</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>8</h6>
-					</div>
-					<div class="col-md-4" align="middle">
-						<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
-							<i class="fas fa-paw"></i>
-						</a>
-						<h6>9</h6>
-					</div>
+			<div class="row">
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1-used">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>1</h6>
 				</div>
-				<hr class="star-dark">
-				<div class="row">
-					<div class="col-md-4" align="middle">
-					</div>
-					<div class="col-md-4" align="middle">
-						<a class="portfolio-item mx-auto btn1" href="#portfolio-modal-2">
-						ดูคะแนน
-						</a>
-					</div>
-					<div class="col-md-4" align="middle">
-					</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>2</h6>
 				</div>
-			</form>
-		<div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>3</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>4</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>5</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>6</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>7</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>8</h6>
+				</div>
+				<div class="col-md-4" align="middle">
+					<a href="#portfolio-modal-4" class="portfolio-item btn-level1">
+						<i class="fas fa-paw"></i>
+					</a>
+					<h6>9</h6>
+				</div>
+			</div>
+			<hr class="star-dark">
+			<div class="row">
+				<div class="col-md-4" align="middle">
+				</div>
+				<div class="col-md-4" align="middle">
+					<a class="portfolio-item mx-auto btn1" href="#portfolio-modal-2">
+					ดูคะแนน
+					</a>
+				</div>
+				<div class="col-md-4" align="middle">
+				</div>
+			</div>
+			<hr class="star-dark">
 		</div>
-		<hr class="star-dark">
     </div>
   </header>
 
@@ -241,18 +238,18 @@
 			<hr class="star-dark mb-5">
 			<img class="img-fluid mb-5 img-stage" src="img/chicken.png" alt="https://www.flaticon.com">
 			<div class="col-lg-12" align="middle">
-				<button onclick="fail()" class="btn-stage">
+				<a onclick="fail()" class="btn-stage1">
 					<i class="far fa-angry"></i>
-				</button>
-				<button onclick="fail()" class="btn-stage">
+				</a>
+				<a onclick="fail()" class="btn-stage1">
 					<i class="far fa-dizzy"></i>
-				</button>
-				<button onclick="success()" class="btn-stage">
+				</a>
+				<a onclick="success()" class="btn-stage1">
 					<i class="far fa-grin-beam"></i>
-				</button>
-				<button onclick="fail()" class="btn-stage">
+				</a>
+				<a onclick="fail()" class="btn-stage1">
 					<i class="far fa-grin-tongue-wink"></i>
-				</button>
+				</a>
 			</div>
 			<hr class="star-dark mb-5">
             <a class="btn btn-danger btn-lg rounded-pill portfolio-modal-dismiss" href="#">
